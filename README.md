@@ -19,9 +19,18 @@ Since my employers seek to invest in aircrafts, I distill this data into its mos
 3) The Cessna make of aircraft.
 
 ## Data Preparation and Cleaning
+With over 88,000 entries and data encompassing more than 30 categories, the first move was to remove less-than-relevant data, such as "__purpose of flight__," "__location__," or "__airport name__." I also removed entries without entries for the critical categories, namely:
+* Number of Engines
+* Engine Type
+* Injury Severity
+* Aircraft Damage
+* Total Injuries (Fatal, Serious, Minor) <br/>
 
+Also, due to a change in flight standards and the like, we narrowed down the dataset to encompass __the years from 1982-2019__, and chose to exclude 2020 onwards due to a severe drop in air travel due to the global COVID pandemic.<br/><br/>
 
-### Confounding Factors
+From there, I pulled from this dataset to create a few supplementary focused dataframes to more efficiently investigate the most frequently used aircraft makes and models, engine types, etc.
+
+### _Confounding Factors_
 As can be expected, there were a number of factors that were not accounted for in the original dataset that would reasonably assumed to have had an impact on the results and analysis, namely:
 * Age of the aircraft
 * Aircraft maintenance policies of the airlines
