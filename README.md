@@ -12,7 +12,7 @@ Image source: [AirPartner](https://www.airpartner.com/en/aircraft-guide/)
 
 ## Overview
 This project looks at data regarding reported aviation crashes since the 1940s, encompassing the details of the aircrafts, severity of the damage and injuries, weather during the incident, etc. <br/><br/>
-The original dataset can be found here: [Aviation Accident Database & Synopses](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses?resource=download&select=AviationData.csv) <br/><br/>
+_The original dataset can be found here:_ [Aviation Accident Database & Synopses](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses?resource=download&select=AviationData.csv) <br/><br/>
 Since my employers seek to invest in aircrafts, I distill this data into its most useful form, and provide a number of recommendations based on analysis of this distilled data, namely that I recommend: 
 1) An aircraft with 2-4 engines.
 2) An aircraft with the Turbo Fan type of engine.
@@ -26,11 +26,13 @@ With over 88,000 entries and data encompassing more than 30 categories, the firs
 * Aircraft Damage
 * Total Injuries (Fatal, Serious, Minor) <br/>
 
-Also, due to a change in flight standards and the like, we narrowed down the dataset to encompass __the years from 1982-2019__, and chose to exclude 2020 onwards due to a severe drop in air travel due to the global COVID pandemic.<br/><br/>
+Also, due to a change in flight standards and the like, we narrowed down the dataset to encompass __the years from 1982-2019__, and chose to exclude 2020 onwards due to a severe drop in air travel due to the global COVID pandemic. From there, I pulled from this dataset to create a few supplementary focused dataframes to more efficiently investigate the most frequently used aircraft makes and models, engine types, etc.
 
-From there, I pulled from this dataset to create a few supplementary focused dataframes to more efficiently investigate the most frequently used aircraft makes and models, engine types, etc.
+Under the category of "__Aircraft Damage__" were three main descriptors: Minor, Substantial, and Destroyed. To better get an understanding of the severity of damage to the aircrafts, I created a new column titled "__Damage Binary__" which rendered the result of "True" if the Aircraft Damage was Substantial or Destroyed, and False if the Aircraft Damage was Minor. From there, I assigned the number 1 to True results and 0 to False results, and used these numbers to extrapolate average aircraft damage severity in the data visualizations.
 
-### _Confounding Factors_
+A more thorough accounting of the data cleaning and preparation process can be seen in the Jupyter Notebook found here. 
+
+#### _Confounding Factors_
 As can be expected, there were a number of factors that were not accounted for in the original dataset that would reasonably assumed to have had an impact on the results and analysis, namely:
 * Age of the aircraft
 * Aircraft maintenance policies of the airlines
