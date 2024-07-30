@@ -30,7 +30,7 @@ Also, due to a change in flight standards and the like, we narrowed down the dat
 
 Under the category of "__Aircraft Damage__" were three main descriptors: Minor, Substantial, and Destroyed. To better get an understanding of the severity of damage to the aircrafts, I created a new column titled "__Damage Binary__" which rendered the result of "True" if the Aircraft Damage was Substantial or Destroyed, and False if the Aircraft Damage was Minor. From there, I assigned the number 1 to True results and 0 to False results, and used these numbers to extrapolate average aircraft damage severity in the data visualizations.
 
-A more thorough accounting of the data cleaning and preparation process can be seen in the Jupyter Notebook found here. 
+A more thorough accounting of the data cleaning and preparation process can be seen in the Jupyter Notebook [found here](https://github.com/momopajamas/Phase_1_Project/blob/main/Aircraft%20Damage.ipynb). 
 
 #### _Confounding Factors_
 As can be expected, there were a number of factors that were not accounted for in the original dataset that would reasonably assumed to have had an impact on the results and analysis, namely:
