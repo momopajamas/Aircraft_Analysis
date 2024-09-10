@@ -52,7 +52,7 @@ These visualizations can be accessed here: [Tableau Public Dashboard](https://pu
 
 ## Conclusion & Recommendations
 
-Upon investigating the cleaned data, a few clear connections can be seen, as demonstrated above.<br/><br/>
+Upon investigating the cleaned data, a few clear connections can be seen, as demonstrated above.<br/>
 
 According to these findings, I recommend the following guidance when considering new investments in airplanes: <br/>
 
