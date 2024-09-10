@@ -28,6 +28,7 @@ With over 88,000 entries and data encompassing more than 30 categories, the firs
 
 Also, due to a change in flight standards and the like, we narrowed down the dataset to encompass __the years from 1982-2019__, and chose to exclude 2020 onwards due to a severe drop in air travel due to the global COVID pandemic. From there, I pulled from this dataset to create a few supplementary focused dataframes to more efficiently investigate the most frequently used aircraft makes and models, engine types, etc.
 
+#### _Quantifying Damage Severity_
 Under the category of "__Aircraft Damage__" were three main descriptors: Minor, Substantial, and Destroyed. To better get an understanding of the severity of damage to the aircrafts, I created a new column titled "__Damage Binary__" which rendered the result of "True" if the Aircraft Damage was Substantial or Destroyed, and False if the Aircraft Damage was Minor. From there, I assigned the number 1 to True results and 0 to False results, and used these numbers to extrapolate average aircraft damage severity in the data visualizations.
 
 A more thorough accounting of the data cleaning and preparation process can be seen in the Jupyter Notebook [found here](https://github.com/momopajamas/Phase_1_Project/blob/main/Aircraft%20Damage.ipynb). 
