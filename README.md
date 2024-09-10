@@ -49,3 +49,13 @@ Below, you will find data visualizations demonstrating the following: <br/>
 
 
 These visualizations can be accessed here: [Tableau Public Dashboard](https://public.tableau.com/app/profile/mohammad.abou.ghazala/viz/Phase1Project-TotalofInjuriesandUninjured/Dashboard1?publish=yes) 
+
+## Conclusion & Recommendations
+
+Upon investigating the cleaned data, a few clear connections can be seen, as demonstrated above.<br/><br/>
+
+According to these findings, I recommend the following guidance when considering new investments in airplanes: <br/>
+
+1) Acquiring Cessna airplanes with 4 Turbofan engines is the safest option
+2) Avoiding Reciprocating engine types
+3) Acquiring an aircraft with at least 2 or more engines
