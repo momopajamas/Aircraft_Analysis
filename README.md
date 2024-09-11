@@ -18,7 +18,12 @@ Since my employers seek to invest in aircrafts, I distill this data into its mos
 2) An aircraft with the Turbo Fan type of engine.
 3) The Cessna make of aircraft.
 
-## Data Preparation and Cleaning
+## Business Understanding
+My company seeks to diversify its portfolio and expand into new industries. It wants to acquire and operate airplanes for commercial and private enterprise, though the company is not well-acquainted with the risks inherent in this endeavor.
+
+My goal is to use the dataset provided to gain insight as to which airplanes the company's Head of Aviation Division should invest in.
+
+## Data Understanding & Preparation
 With over 88,000 entries and data encompassing more than 30 categories, the first move was to remove less-than-relevant data, such as "__purpose of flight__," "__location__," or "__airport name__." I also removed entries without entries for the critical categories, namely:
 * Number of Engines
 * Engine Type
@@ -39,7 +44,7 @@ As can be expected, there were a number of factors that were not accounted for i
 * Aircraft maintenance policies of the airlines
 * Experience and talent of the pilot
 
-## Data Visualizations
+## Data Modeling
 Below, you will find data visualizations demonstrating the following: <br/>
 1) Aircraft accidents that have the Turbo Fan engine type have much lower rates of serious and minor injuries, and higher rates of uninjured.
 2) Aircrafts with 2-4 engines have lower rates of damage severity to the vehicles.
