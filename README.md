@@ -48,7 +48,7 @@ As can be expected, there were a number of factors that were not accounted for i
 Below, you will find data visualizations demonstrating the following: <br/>
 1) Aircraft accidents that have the Turbo Fan engine type have much lower rates of serious and minor injuries, and higher rates of uninjured.
 2) Aircrafts with 2-4 engines have lower rates of damage severity to the vehicles.
-3) Upon considering the make of the aicraft in conjuunction with number of engines, Cessna aircrafts with 4 engines have the lowest rates of severe damage. <br/><br/>
+3) Upon considering the make of the aicraft in conjunction with number of engines, Cessna aircrafts with 4 engines have the lowest rates of severe damage. <br/><br/>
 
 ![Dashboard 1](https://github.com/user-attachments/assets/b50eaf7a-50b3-49c5-9135-e007d5d726f3)
 
